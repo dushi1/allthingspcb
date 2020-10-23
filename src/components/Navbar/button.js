@@ -4,8 +4,9 @@ import "./button.css"
 const Button = props => {
   return (
     <button className="button" onClick={props.onClick}>
-      <div>{props.name}</div>
+      <div style={{ color: "white", fontWeight: "bold" }}>{props.name}</div>
     </button>
   )
 }
+
 export default Button

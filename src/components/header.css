@@ -5,7 +5,7 @@
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   flex-direction: row;
   padding: 10px 5vh;
-  font-size: 1.2rem;
+  font-size: 1rem;
   justify-content: space-between;
   align-items: center;
   overflow: hidden;
@@ -53,28 +53,28 @@
 .list {
   display: flex;
   list-style: none;
-  gap: 20px;
+  gap: 30px;
   margin: 0;
   align-items: center;
-  justify-content: center;
-  width: 40vw;
+  justify-content: end;
+  width: 70vw;
   padding: 0px;
   padding-top: 10px;
 }
 
-@media (min-width: 300px) and (max-width: 600px) {
+@media (min-width: 300px) and (max-width: 800px) {
   .list {
     display: none;
   }
 }
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
 }
 
 @media (min-width: 992px) {
-}
+} */
 
-@media (min-width: 1200px) {
+@media (min-width: 800px) {
   .box {
     display: none;
   }
