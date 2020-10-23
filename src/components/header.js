@@ -1,35 +1,43 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
-import React from "react"
+import React, { Component } from "react"
+import { MenuItems } from "./Navbar/MenuItems";
+import logo from "../images/logo.png";
+import menu from "../images/menu.png";
+import cancel from "../images/cancel.png";
+import "./header.css"
 
-const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
-    </div>
-  </header>
-)
+class Header extends Component {
+  state = {
+    clicked: false
+  }
+  handleClick = () => {
+    this.setState({ clicked: !this.state.clicked })
+  }
+  render() {
+    return (
+      <header className="navbarItems">
+        <div style={{ display: "flex" }}>
+          <img src={logo} className="logo" />
+          {/* <h2>ALL THINGS PCB</h2> */}
+        </div>
+
+        <div onClick={this.handleClick} className="box">
+          {
+            this.state.clicked ?
+              <img src={cancel} className="click" /> : <img src={menu} className="click" />
+          }
+        </div>
+        {/* <div className="menu-items"></div> */}
+        <ul className="list">
+          {MenuItems.map(item => {
+            return <li><Link className={item.cName} to={item.url}>{item.title}</Link></li>
+          })}
+        </ul>
+      </header>
+    )
+  }
+}
 
 Header.propTypes = {
   siteTitle: PropTypes.string,
