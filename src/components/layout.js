@@ -8,9 +8,9 @@
 import React from "react"
 import PropTypes from "prop-types"
 // import { useStaticQuery, graphql } from "gatsby"
-
 import Header from "./header"
 import "./layout.css"
+import Carousel from "./Caresol"
 
 const Layout = ({ children }) => {
   // const data = useStaticQuery(graphql`
@@ -26,6 +26,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <Header />
+      <Carousel />
       {/* siteTitle={data.site.siteMetadata?.title || `Title`} */}
       <div
         style={{
@@ -43,7 +44,9 @@ const Layout = ({ children }) => {
           height: "100px",
           backgroundColor: "black",
         }}
-      ></footer>
+      >
+        <div></div>
+      </footer>
     </>
   )
 }
