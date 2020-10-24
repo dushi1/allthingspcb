@@ -45,7 +45,13 @@ class Header extends Component {
         </header>
         {this.state.clicked
           ? MenuItems.map(item => {
-              return <Button name={item.title} onClick={this.handleClick} />
+              return (
+                <Button
+                  name={item.title}
+                  onClick={this.handleClick}
+                  to={item.url}
+                />
+              )
             })
           : null}
       </>

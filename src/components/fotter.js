@@ -1,12 +1,13 @@
 import React from "react"
 import "./fotter.css"
+import logo from "../images/logo.png"
 
 const Footer = () => {
   return (
-    <>
+    <section id="contact">
       <footer
         class="section footer-classic context-dark bg-image"
-        style="background: #2d3246;"
+        style={{ backgroundColor: "black" }}
       >
         <div class="container">
           <div class="row row-30">
@@ -15,10 +16,10 @@ const Footer = () => {
                 <a class="brand" href="index.html">
                   <img
                     class="brand-logo-light"
-                    src="images/agency/logo-inverse-140x37.png"
+                    src={logo}
                     alt=""
                     width="140"
-                    height="37"
+                    height="45"
                     srcset="images/agency/logo-retina-inverse-280x74.png 2x"
                   />
                 </a>
@@ -121,7 +122,7 @@ const Footer = () => {
       >
         Copyright © 2020 allthingspcb.in
       </div>
-    </>
+    </section>
   )
 }
 
