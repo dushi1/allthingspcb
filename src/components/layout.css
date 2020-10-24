@@ -4,6 +4,7 @@ html {
   font: 112.5%/1.45em georgia, serif, sans-serif;
   box-sizing: border-box;
   overflow-y: scroll;
+  overflow-x: hidden;
 }
 body {
   margin: 0;
@@ -118,7 +119,6 @@ img {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
 }
 svg:not(:root) {
   overflow: hidden;
@@ -594,4 +594,7 @@ pre tt:after {
   html {
     font-size: 100%;
   }
+}
+.car{
+  padding: 0 !important;
 }

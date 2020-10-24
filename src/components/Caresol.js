@@ -8,27 +8,27 @@ const Carousel = () => {
   return (
     <R.Carousel>
       <R.Carousel.Item>
-        <img className="d-block w-100" src={c1} alt="First slide" />
+        <img className="d-block w-100" src={c1} alt="First slide" style={{ height: "90vh" }} />
         <R.Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h3>All Things PCB</h3>
+          <p>PCB manufacturer in new Delhi</p>
         </R.Carousel.Caption>
       </R.Carousel.Item>
       <R.Carousel.Item>
-        <img className="d-block w-100" src={c2} alt="Third slide" />
+        <img className="d-block w-100" src={c2} alt="Third slide" style={{ height: "90vh" }} />
 
         <R.Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h3>High Quality PCB</h3>
+          <p>We deal in Single side, Double side and Multilayer PCBs</p>
         </R.Carousel.Caption>
       </R.Carousel.Item>
       <R.Carousel.Item>
-        <img className="d-block w-100" src={c3} alt="Third slide" />
+        <img className="d-block w-100" src={c3} alt="Third slide" style={{ height: "90vh" }} />
 
         <R.Carousel.Caption>
-          <h3>Third slide label</h3>
+          <h3>We Always Deliver On Time</h3>
           <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+            We take prototype as well as bulk production orders.
           </p>
         </R.Carousel.Caption>
       </R.Carousel.Item>
