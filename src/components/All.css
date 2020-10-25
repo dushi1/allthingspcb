@@ -4,7 +4,11 @@
 }
 .aboutusd{
     /* background-color:#edffe9; */
-    background-color: #05a000 ; 
+    /* background-color: #05a000 ;  */
+    background-image:url('../images/c1blur.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 body {
     font-family: 'Amaranth';font-size: 14px;
@@ -16,7 +20,7 @@ body {
     padding: 2em 0;
 }
 .site-title h3 {
-    font-size: 3.5em;
+    font-size: 2.5em;
     color: #14B9D5;
     font-family: 'Marvel-Regular';
     font-weight: 700;
@@ -41,13 +45,37 @@ body {
 }
 
 .about-inner-column ul li a {
+    display: flex;
     color: #333333;
     font-size: 1.1em;
     padding-left: 2em;
+    align-items: center;
+    justify-content: center;
 }
 .about-right img {
     width: 100%;
 }
 .li{
-    margin:0 0 20px 0
+    margin:0 0 20px 0;
+    color:wheat;
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 600;
+}
+.ul {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.itembox{
+display: flex;
+flex-direction: column;
+    width: 90%;
+    padding:10px 10px;
+    border-style: solid;
+}
+.images{
+    width:"80%";
+    height: 30vh;
 }

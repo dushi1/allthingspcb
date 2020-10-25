@@ -6,6 +6,7 @@ import Carousel from "../components/Caresol"
 import "../components/layout.css"
 import { Aboutus } from "../components/Index/Aboutus"
 import { Production } from "../components/Index/Production"
+import { Product } from "../components/Index/Products"
 
 const IndexPage = () => (
   <Layout>
@@ -13,6 +14,7 @@ const IndexPage = () => (
     <Carousel />
     <Aboutus />
     <Production />
+    <Product />
   </Layout>
 )
 

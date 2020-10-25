@@ -7,7 +7,7 @@ const Footer = () => {
     <section id="contact">
       <footer
         class="section footer-classic context-dark bg-image"
-        style={{ backgroundColor: "black" }}
+        style={{ backgroundColor: "black", padding: "1rem 0" }}
       >
         <div class="container">
           <div class="row row-30">
@@ -23,19 +23,10 @@ const Footer = () => {
                     srcset="images/agency/logo-retina-inverse-280x74.png 2x"
                   />
                 </a>
-                <p>
+                <p style={{ paddingTop: "20px" }}>
                   We are an award-winning creative agency, dedicated to the best
                   result in web design, promotion, business consulting, and
                   marketing.
-                </p>
-
-                <p class="rights">
-                  <span>©  </span>
-                  <span class="copyright-year">2018</span>
-                  <span> </span>
-                  <span>Waves</span>
-                  <span>. </span>
-                  <span>All Rights Reserved.</span>
                 </p>
               </div>
             </div>
@@ -63,25 +54,22 @@ const Footer = () => {
               <h5>Links</h5>
               <ul class="nav-list">
                 <li>
-                  <a href="#">About</a>
+                  <a href="#">Google</a>
                 </li>
                 <li>
-                  <a href="#">Projects</a>
+                  <a href="#">Facebook</a>
                 </li>
                 <li>
-                  <a href="#">Blog</a>
+                  <a href="#">Instagram</a>
                 </li>
                 <li>
-                  <a href="#">Contacts</a>
-                </li>
-                <li>
-                  <a href="#">Pricing</a>
+                  <a href="#">Twitter</a>
                 </li>
               </ul>
             </div>
           </div>
         </div>
-        <div class="row no-gutters social-container">
+        {/* <div class="row no-gutters social-container">
           <div class="col">
             <a class="social-inner" href="#">
               <span class="icon mdi mdi-facebook"></span>
@@ -106,7 +94,7 @@ const Footer = () => {
               <span>google</span>
             </a>
           </div>
-        </div>
+        </div> */}
       </footer>
 
       <div
