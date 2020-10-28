@@ -15,11 +15,16 @@ export const MenuItems = [
     cName: "nav-links",
   },
   {
+    title: "Why choose us?",
+    url: "",
+    cName: "nav-links",
+  }
+  ,
+  {
     title: "Product",
     url: "",
     cName: "nav-links",
   },
-
   {
     title: "Contact Us",
     url: "#contact",

@@ -21,7 +21,7 @@ body {
 }
 .site-title h3 {
     font-size: 2.5em;
-    color: #14B9D5;
+    color: darkgreen;
     font-family: 'Marvel-Regular';
     font-weight: 700;
 }
@@ -34,7 +34,7 @@ body {
 
 .about-inner-column h4 {
     font-size: 2.5em;
-    color: #FFD001;
+    color: darkgreen;
     font-family: 'Marvel-Regular';
 }
 .about-inner-column p {
@@ -57,7 +57,7 @@ body {
 }
 .li{
     margin:0 0 20px 0;
-    color:wheat;
+    color:white;
     font-size: 1rem;
     text-align: center;
     font-weight: 600;
@@ -71,11 +71,55 @@ body {
 .itembox{
 display: flex;
 flex-direction: column;
-    width: 90%;
+    width: 100%;
     padding:10px 10px;
     border-style: solid;
+    margin:10px 0px;
+   
 }
 .images{
     width:"80%";
     height: 30vh;
 }
+
+.carousel{
+    width: 70vw;
+}
+.form{
+    width: 30vw;
+    height: 70vh;
+    background-color: lightgreen;
+    padding:30px 0px;
+    background-image: url('../images/c1blur.png');
+    color: white;
+}
+
+.adjust{
+    display: flex;
+}
+
+@media (min-width: 300px) and (max-width: 800px) {
+    .adjust{
+        display: flex;
+        flex-direction: column;
+    }
+    .carousel{
+        width: 100vw;
+        
+    }
+    .form{
+        width: 100vw;
+        height: 60vh;
+    }
+  }
+  
+  /* @media (min-width: 768px) {
+  }
+  
+  @media (min-width: 992px) {
+  } */
+  
+  @media (min-width: 800px) {
+    
+  }
+  

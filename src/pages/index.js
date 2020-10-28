@@ -7,14 +7,22 @@ import "../components/layout.css"
 import { Aboutus } from "../components/Index/Aboutus"
 import { Production } from "../components/Index/Production"
 import { Product } from "../components/Index/Products"
+import Form from "../components/Index/Form"
+import "../components/All.css"
+import { Yus } from "../components/Index/Yus"
+
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
-    <Carousel />
+    <SEO title="" />
+    <div className="adjust">
+      <Carousel />
+      <Form />
+    </div>
     <Aboutus />
     <Production />
     <Product />
+    <Yus />
   </Layout>
 )
 

@@ -6,7 +6,7 @@ export const ItemBox = (props) => {
         <div className="itembox">
             <div style={{
                 color: "black", padding: "20px",
-                alignSelf: "center", fontSize: "1rem"
+                alignSelf: "center", fontSize: "1.5rem"
             }}>{props.name}</div>
             <img src={props.img} className="images" />
         </div>
