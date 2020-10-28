@@ -13,17 +13,19 @@ import { Yus } from "../components/Index/Yus"
 
 
 const IndexPage = () => (
-  <Layout>
-    <SEO title="" />
-    <div className="adjust">
-      <Carousel />
-      <Form />
-    </div>
-    <Aboutus />
-    <Production />
-    <Product />
-    <Yus />
-  </Layout>
+  <div style={{ overflowX: "hidden" }}>
+    <Layout>
+      <SEO title="" />
+      <div className="adjust">
+        <Carousel />
+        <Form />
+      </div>
+      <Aboutus />
+      <Production />
+      <Product />
+      <Yus />
+    </Layout>
+  </div>
 )
 
 export default IndexPage

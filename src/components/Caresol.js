@@ -9,14 +9,14 @@ const Carousel = () => {
   return (
     <R.Carousel className="carousel">
       <R.Carousel.Item>
-        <img className="d-block w-100" src={c1} alt="First slide" style={{ height: "70vh" }} />
+        <img className="d-block w-100" src={c1} alt="First slide" style={{ height: "30rem" }} />
         <R.Carousel.Caption>
           <h3 style={{ color: "white", textShadow: "1px 1px #ffffff" }}>All Things PCB</h3>
           <p style={{ color: "white", textShadow: "1px 1px #ffffff" }}>PCB manufacturer in new Delhi</p>
         </R.Carousel.Caption>
       </R.Carousel.Item>
       <R.Carousel.Item>
-        <img className="d-block w-100" src={c2} alt="Third slide" style={{ height: "70vh" }} />
+        <img className="d-block w-100" src={c2} alt="Third slide" style={{ height: "30rem" }} />
 
         <R.Carousel.Caption>
           <h3 style={{ color: "white", textShadow: "1px 1px #ffffff" }}>High Quality PCB</h3>
@@ -24,7 +24,7 @@ const Carousel = () => {
         </R.Carousel.Caption>
       </R.Carousel.Item>
       <R.Carousel.Item>
-        <img className="d-block w-100" src={c3} alt="Third slide" style={{ height: "70vh" }} />
+        <img className="d-block w-100" src={c3} alt="Third slide" style={{ height: "30rem" }} />
 
         <R.Carousel.Caption>
           <h3 style={{ color: "white", textShadow: "1px 1px #ffffff" }}>We Always Deliver On Time</h3>

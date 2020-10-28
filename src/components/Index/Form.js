@@ -8,7 +8,7 @@ const Form = () => {
                 <div class="col-md-12 col-md-offset-12">
                     <div class="well well-sm">
                         <form class="form-horizontal" action="" method="post" >
-                            <fieldset style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
+                            <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
                                 <legend class="text-center">Contact us</legend>
 
                                 <div class="form-group">
@@ -40,7 +40,7 @@ const Form = () => {
                                         <button type="submit" class="btn btn-primary btn-lg">Submit</button>
                                     </div>
                                 </div>
-                            </fieldset>
+                            </div>
                         </form>
                     </div>
                 </div>
