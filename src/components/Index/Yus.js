@@ -4,33 +4,96 @@ import "../All.css"
 export const Yus = () => {
     return (
         <>
-            <div id="aboutus" class="about-section aboutusd">
+            <div class="y-us-section aboutusl">
                 <div class="container">
-                    <div className="row">
-                        <div className="col-lg-6 col-md-6">
-                            <div class="site-title text-center">
-                                <h3>Production Capablities</h3>
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <div class="y-us-head">
+                                <div class="site-title text-center">
+                                    <h3>Why choose us?</h3>
+                                    <p>Some text here</p>
+                                </div>
                             </div>
-                            <ul className="ul">
-                                {/* <li className="li">We take prototype as well as bulk production orders.</li>
-                                <li className="li">We deal in Single side, Double side and Multilayer PCBs</li>
-                                <li className="li">Board thickness available - 0.2mm to 3.2mm</li> */}
-                                <li className="li">PCB Routing/ CNC V-SCoring</li>
-                                <li className="li">Semi Automatic Electroless PTH Line</li>
-                                <li className="li">CNC Drilling/ CNC Routing/ CNC Aluminium</li>
-                                <li className="li">10 MIL TRACK AND CLEARANCE</li>
-                            </ul>
                         </div>
-                        <div className="col-lg-6 col-md-6">
-                            <div class="site-title text-center">
-                                <h3>Test Capablities</h3>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                            <div class="y-us-content">
+                                <div class="service-3">
+                                    <div class="service-box">
+                                        <div class="clearfix">
+                                            <div class="iconset">
+                                                <span class="glyphicon glyphicon-cog icon"></span>
+                                            </div>
+                                            <div class="y-us-content">
+                                                <h4>SAFTEY FIRST</h4>
+                                                <p>Globally incubate standards compliant channels before scalable benefits. Quickly disseminate superior del</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="service-box">
+                                        <div class="clearfix">
+                                            <div class="iconset">
+                                                <span class="glyphicon glyphicon-cog icon"></span>
+                                            </div>
+                                            <div class="y-us-content">
+                                                <h4>CLEAN SURFACE</h4>
+                                                <p>Globally incubate standards compliant channels before scalable benefits. Quickly disseminate superior del</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="service-box">
+                                        <div class="clearfix">
+                                            <div class="iconset">
+                                                <span class="glyphicon glyphicon-cog icon"></span>
+                                            </div>
+                                            <div class="y-us-content">
+                                                <h4>PROFESSIONAL</h4>
+                                                <p>Globally incubate standards compliant channels before scalable benefits. Quickly disseminate superior del</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <ul className="ul">
-                                <li className="li">Universal Bare Board Tester (BBT)</li>
-                                <li className="li">Flying Probe Tester (Fixtureless)</li>
-                                <li className="li">Copper Thickness Measurement (CMI)</li>
-
-                            </ul>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                            <div class="y-us-contentbox">
+                                <div class="service-3">
+                                    <div class="service-box">
+                                        <div class="clearfix">
+                                            <div class="iconset">
+                                                <span class="glyphicon glyphicon-cog icon"></span>
+                                            </div>
+                                            <div class="y-us-content">
+                                                <h4>SUSTAINABILITY</h4>
+                                                <p>Globally incubate standards compliant channels before scalable benefits. Quickly disseminate superior del</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="service-box">
+                                        <div class="clearfix">
+                                            <div class="iconset">
+                                                <span class="glyphicon glyphicon-cog icon"></span>
+                                            </div>
+                                            <div class="y-us-content">
+                                                <h4>MODERN PAINTING</h4>
+                                                <p>Globally incubate standards compliant channels before scalable benefits. Quickly disseminate superior del</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    {/* <div class="service-box">
+                                        <div class="clearfix">
+                                            <div class="iconset">
+                                                <span class="glyphicon glyphicon-cog icon"></span>
+                                            </div>
+                                            <div class="y-us-content">
+                                                <h4>home decor</h4>
+                                                <p>Globally incubate standards compliant channels before scalable benefits. Quickly disseminate superior del</p>
+                                            </div>
+                                        </div>
+                                    </div> */}
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

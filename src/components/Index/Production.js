@@ -10,7 +10,7 @@ export const Production = () => {
                     <div className="row">
                         <div className="col-lg-6 col-md-6">
                             <div class="site-title text-center">
-                                <h3>Production Capablities</h3>
+                                <h3 style={{ color: "white" }}>Production Capablities</h3>
                             </div>
                             <ul className="ul">
                                 {/* <li className="li">We take prototype as well as bulk production orders.</li>
@@ -24,7 +24,7 @@ export const Production = () => {
                         </div>
                         <div className="col-lg-6 col-md-6">
                             <div class="site-title text-center">
-                                <h3>Test Capablities</h3>
+                                <h3 style={{ color: "white" }}>Test Capablities</h3>
                             </div>
                             <ul className="ul">
                                 <li className="li">Universal Bare Board Tester (BBT)</li>

@@ -20,15 +20,14 @@ class Header extends Component {
         <header className="navbarItems">
           <div style={{ display: "flex" }}>
             <img src={logo} className="logo" />
-            {/* <h2>ALL THINGS PCB</h2> */}
           </div>
 
           <div onClick={this.handleClick} className="box">
             {this.state.clicked ? (
               <img src={cancel} className="click" />
             ) : (
-              <img src={menu} className="click" />
-            )}
+                <img src={menu} className="click" />
+              )}
           </div>
           {/* <div className="menu-items"></div> */}
           <ul className="list">
@@ -45,14 +44,14 @@ class Header extends Component {
         </header>
         {this.state.clicked
           ? MenuItems.map(item => {
-              return (
-                <Button
-                  name={item.title}
-                  onClick={this.handleClick}
-                  to={item.url}
-                />
-              )
-            })
+            return (
+              <Button
+                name={item.title}
+                onClick={this.handleClick}
+                to={item.url}
+              />
+            )
+          })
           : null}
       </>
     )

@@ -57,9 +57,9 @@
   gap: 30px;
   margin: 0;
   align-items: center;
-  justify-content: end;
+  justify-content: flex-end;
   width: 70vw;
-  padding: 0px;
+  padding: 0px 30px;
   padding-top: 10px;
   
 }
