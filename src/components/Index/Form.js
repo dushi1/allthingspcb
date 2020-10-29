@@ -9,7 +9,7 @@ const Form = () => {
                     <div class="well well-sm">
                         <form class="form-horizontal" action="" method="post" >
                             <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
-                                <legend class="text-center">Contact us</legend>
+                                <legend class="text-center">Request a callback</legend>
 
                                 <div class="form-group">
                                     <label class="col-md-12 control-label" for="name">Name</label>
@@ -32,6 +32,16 @@ const Form = () => {
                                     <div class="col-md-12">
                                         <textarea class="form-control" id="message" name="message" placeholder="Please enter your message here..." rows="2" required></textarea>
                                     </div>
+                                </div>
+                                <div className="checkbox">
+                                    <label class="container1">Prototype
+                                        <input type="radio" checked="checked" name="radio" />
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="container1">Production
+                                        <input type="radio" name="radio" />
+                                        <span class="checkmark"></span>
+                                    </label>
                                 </div>
 
 

@@ -15,7 +15,7 @@ import { Yus } from "../components/Index/Yus"
 const IndexPage = () => (
   <div style={{ overflowX: "hidden" }}>
     <Layout>
-      <SEO title="" />
+      <SEO title="Home" description="PCB on order" lang="en" meta="pcb" />
       <div className="adjust">
         <Carousel />
         <Form />
