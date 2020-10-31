@@ -3,13 +3,16 @@ import "../All.css"
 
 const Form = () => {
     const [toggle, setToggle] = useState(true)
+    const [name, setName] = useState(true)
+    const [mobile, setMobile] = useState(true)
+    const [textArea, setTextArea] = useState(true)
     return (
         toggle ?
             <div class="container form">
                 <div class="row">
                     <div class="col-md-12 col-md-offset-12">
                         <div class="well well-sm">
-                            <form class="form-horizontal" onSubmit={() => { setToggle(true) }} >
+                            <form class="form-horizontal" onSubmit={(event) => { setToggle(false) }} >
                                 <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
                                     <legend class="text-center">Request a callback</legend>
 
@@ -35,6 +38,7 @@ const Form = () => {
                                             <textarea class="form-control" id="message" name="message" placeholder="Please enter your message here..." rows="2" required></textarea>
                                         </div>
                                     </div>
+
                                     <div className="checkbox">
                                         <label class="container1">Prototype
                                         <input type="radio" checked="checked" name="radio" />
@@ -58,7 +62,7 @@ const Form = () => {
                     </div>
                 </div>
             </div> :
-            <div style={{ alignItems: "center", justifyContent: "center" }}>
+            <div className="form" style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
                 <div>Submited</div>
             </div>
     )
