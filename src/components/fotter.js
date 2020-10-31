@@ -32,19 +32,18 @@ const Footer = () => {
               <h5>Contacts</h5>
               <dl class="contact-list">
                 <dt>Address:</dt>
-                <dd>798 South Park Avenue, Jaipur, Raj</dd>
+                <dd>A4/19 first floor paschim vihar new delhi 110063</dd>
               </dl>
               <dl class="contact-list">
                 <dt>email:</dt>
                 <dd>
-                  <a href="mailto:#">dkstudioin@gmail.com</a>
+                  <div>allthingspcb.in@gmail.com</div>
                 </dd>
               </dl>
               <dl class="contact-list">
                 <dt>phones:</dt>
                 <dd>
-                  <a href="tel:#">https://karosearch.com</a> <span>or</span>{" "}
-                  <a href="tel:#">https://karosearch.com</a>
+                  <a href="tel:#8802020259">8802020259</a>
                 </dd>
               </dl>
             </div>
@@ -60,9 +59,9 @@ const Footer = () => {
                 <li>
                   <a href="#">Instagram</a>
                 </li>
-                <li>
+                {/* <li>
                   <a href="#">Twitter</a>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>

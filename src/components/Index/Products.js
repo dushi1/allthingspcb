@@ -13,18 +13,18 @@ export const Product = () => {
                     </div>
                     <div className="row">
                         <div className="col-lg-6 col-md-6">
-                            <ItemBox name="Mutli layer PCB" img={c1} />
+                            <ItemBox name="Single side PCB" img={c1} />
                         </div>
                         <div className="col-lg-6 col-md-6">
-                            <ItemBox name="Mutli layer PCB" img={c1} />
+                            <ItemBox name="Double side PCB" img={c1} />
                         </div>
                     </div>
                     <div className="row">
                         <div className="col-lg-6 col-md-6">
-                            <ItemBox name="Mutli layer PCB" img={c1} />
+                            <ItemBox name="Multi layer PCB" img={c1} />
                         </div>
                         <div className="col-lg-6 col-md-6">
-                            <ItemBox name="Mutli layer PCB" img={c1} />
+                            <ItemBox name="Metal core PCB" img={c1} />
                         </div>
                     </div>
                 </div>
