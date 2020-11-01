@@ -27,17 +27,14 @@ const Form = () => {
                                         'Content-Type': 'application/json',
                                     }
                                 }).then(resp => {
-
                                     console.log(resp);
                                     setToggle(false)
                                     alert('pass')
-
-
                                 }).catch(er => {
 
                                     console.log(er);
                                     setToggle(true)
-                                    alert('fail')
+                                    alert(er)
 
                                 })
 
