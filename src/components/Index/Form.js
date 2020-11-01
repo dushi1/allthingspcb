@@ -17,7 +17,7 @@ const Form = () => {
                         <div class="well well-sm">
                             <form class="form-horizontal" method="post" onSubmit={async (event) => {
                                 event.preventDefault();
-                                await axios.post('http://13.126.87.81:5000/data', {
+                                await axios.post('http://13.126.87.81:443/data', {
                                     "name": name,
                                     "mobile": mobile,
                                     "text": textArea,
