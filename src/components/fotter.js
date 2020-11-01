@@ -50,11 +50,11 @@ const Footer = () => {
             <div class="col-md-4 col-xl-3">
               <h5>Links</h5>
               <ul class="nav-list">
-                <li>
+                {/* <li>
                   <a href="#" target="_blank">Google</a>
-                </li>
+                </li> */}
                 <li>
-                  <a href="#" target="_blank">Facebook</a>
+                  <a href="https://www.facebook.com/Allthingspcbin-114604550410837/" target="_blank">Facebook</a>
                 </li>
                 <li>
                   <a href="https://instagram.com/allthingspcb.in?igshid=xiv0a5ubue8p" target="_blank">Instagram</a>

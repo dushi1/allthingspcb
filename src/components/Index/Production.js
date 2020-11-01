@@ -4,7 +4,7 @@ import c1 from "../../images/c1.png"
 
 export const Production = () => {
     return (
-        <>
+        <section id="cap">
             <div id="aboutus" class="about-section aboutusd">
                 <div class="container">
                     <div className="row">
@@ -36,6 +36,6 @@ export const Production = () => {
                     </div>
                 </div>
             </div>
-        </>
+        </section>
     )
 }

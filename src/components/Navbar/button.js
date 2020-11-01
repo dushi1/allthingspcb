@@ -1,6 +1,6 @@
 import React from "react"
 import "./button.css"
-import { Link } from "gatsby"
+
 
 const Button = props => {
   return (

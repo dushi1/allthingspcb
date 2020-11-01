@@ -4,7 +4,7 @@ import c1 from "../../images/c1.png"
 
 export const Aboutus = () => {
     return (
-        <>
+        <section id="about">
             <div id="aboutus" class="about-section aboutusl">
                 <div class="container">
                     <div class="site-title text-center">
@@ -24,6 +24,6 @@ export const Aboutus = () => {
 
                 </div>
             </div>
-        </>
+        </section>
     )
 }

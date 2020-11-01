@@ -79,7 +79,7 @@ flex-direction: column;
 }
 .images{
     width:"80%";
-    height: 30vh;
+    height: 40vh;
 }
 
 .carousel{
@@ -186,7 +186,7 @@ service-3 .service-box .y-us-content h4 {
     padding-left: 35px;
     margin-bottom: 12px;
     cursor: pointer;
-    font-size: 22px;
+    font-size: 15px;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;

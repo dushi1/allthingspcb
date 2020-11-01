@@ -5,7 +5,7 @@ import c1 from "../../images/c1.png"
 
 export const Product = () => {
     return (
-        <>
+        <section id="product">
             <div id="aboutus" class="about-section aboutusl">
                 <div class="container">
                     <div class="site-title text-center">
@@ -29,6 +29,6 @@ export const Product = () => {
                     </div>
                 </div>
             </div>
-        </>
+        </section>
     )
 }
