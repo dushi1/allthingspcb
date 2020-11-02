@@ -29,13 +29,14 @@ const Form = () => {
                                     }
                                 }).then(resp => {
                                     setToggle(false)
-                                    alert(resp)
+                                    setName('')
+                                    setMobile('')
+                                    setTextArea('')
+                                    setType('')
                                 }).catch(er => {
-
                                     console.log(er);
                                     setToggle(true)
-                                    alert(er)
-
+                                    // alert(er)
                                 })
                             }}
                             >
@@ -94,7 +95,7 @@ const Form = () => {
                 </div>
             </div> :
             <div className="form" style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
-                <div>Submited</div>
+                <div style={{ fontSize: "20px" }}>Submitted</div>
             </div>
     )
 }
