@@ -7,7 +7,7 @@ const Form = () => {
     const [name, setName] = useState("")
     const [mobile, setMobile] = useState("")
     const [textArea, setTextArea] = useState("")
-    const [type, setType] = useState('')
+    const [type, setType] = useState('none')
 
     return (
         toggle ?
@@ -15,9 +15,9 @@ const Form = () => {
                 <div class="row">
                     <div class="col-md-12 col-md-offset-12">
                         <div class="well well-sm">
-                            <form class="form-horizontal" method="post" onSubmit={async (event) => {
+                            <form class="form-horizontal" method="post" onSubmit={(event) => {
                                 event.preventDefault();
-                                await axios.post('http://13.126.87.81:5000/data', {
+                                axios.post('https://mailserver-lake.vercel.app', {
                                     "name": name,
                                     "mobile": mobile,
                                     "text": textArea,
@@ -25,11 +25,11 @@ const Form = () => {
                                 }, {
                                     headers: {
                                         'Content-Type': 'application/json',
+                                        'Accept': 'application/json'
                                     }
                                 }).then(resp => {
-                                    console.log(resp);
                                     setToggle(false)
-                                    alert('pass')
+                                    alert(resp)
                                 }).catch(er => {
 
                                     console.log(er);
@@ -37,8 +37,6 @@ const Form = () => {
                                     alert(er)
 
                                 })
-
-
                             }}
                             >
                                 <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
