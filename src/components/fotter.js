@@ -13,7 +13,7 @@ const Footer = () => {
           <div class="row row-30">
             <div class="col-md-4 col-xl-5">
               <div class="pr-xl-4">
-                <a class="brand" href="/">
+                <div class="brand">
                   <img
                     class="brand-logo-light"
                     src={logo}
@@ -22,7 +22,7 @@ const Footer = () => {
                     height="45"
 
                   />
-                </a>
+                </div>
                 <p style={{ paddingTop: "20px" }}>
                   Printed circuit board (PCB) design brings your electronic circuits to life in the physical form. Using layout software, the PCB design process combines component placement and routeing to define electrical connectivity on a manufactured circuit board.
                 </p>

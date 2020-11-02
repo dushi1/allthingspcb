@@ -18,7 +18,7 @@ export const Aboutus = () => {
 
                         </div>
                         <div class="col-xl-6 col-lg-6  col-md-6 about-right">
-                            <img height="100%" src={c1} alt=" " />
+                            <img height="100%" src={c1} alt="image" />
                         </div>
                     </div>
 

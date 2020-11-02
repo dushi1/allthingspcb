@@ -54,7 +54,7 @@ const Form = () => {
                                     <div class="form-group">
                                         <label class="col-md-12 control-label" for="mobile">Mobile number</label>
                                         <div class="col-md-12">
-                                            <input id="email" name="email" type="text" placeholder="Mobile number" class="form-control" required value={mobile} onChange={(event) => setMobile(event.target.value)} minLength={10} maxLength={10} />
+                                            <input id="email" name="mobile" type="text" placeholder="Mobile number" class="form-control" required value={mobile} onChange={(event) => setMobile(event.target.value)} minLength={10} maxLength={10} />
                                         </div>
                                     </div>
 
@@ -67,17 +67,17 @@ const Form = () => {
                                     </div>
 
                                     <div className="checkbox">
-                                        <label class="container1" for="" onClick={() => {
+                                        <label class="container1" for="proto" onClick={() => {
                                             setType('Prototype')
                                         }
                                         }>Prototype
-                                        <input type="radio" name="radio" />
+                                        <input type="radio" name="proto" />
                                             <span class="checkmark"></span>
                                         </label>
                                         <label class="container1" for="pro" onClick={() => {
                                             setType('Production')
                                         }}>Production
-                                        <input type="radio" name="radio" />
+                                        <input type="radio" name="pro" />
                                             <span class="checkmark"></span>
                                         </label>
                                     </div>
