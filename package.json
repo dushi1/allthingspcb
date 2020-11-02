@@ -20,6 +20,7 @@
     "gatsby-source-filesystem": "^2.3.31",
     "gatsby-transformer-sharp": "^2.5.16",
     "jquery": "^3.5.1",
+    "nodemailer": "^6.4.14",
     "popper.js": "^1.16.1",
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
