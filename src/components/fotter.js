@@ -13,7 +13,7 @@ const Footer = () => {
           <div class="row row-30">
             <div class="col-md-4 col-xl-5">
               <div class="pr-xl-4">
-                <a class="brand">
+                <a class="brand" href="/">
                   <img
                     class="brand-logo-light"
                     src={logo}
@@ -54,10 +54,10 @@ const Footer = () => {
                   <a href="#" target="_blank">Google</a>
                 </li> */}
                 <li>
-                  <a href="https://www.facebook.com/Allthingspcbin-114604550410837/" target="_blank">Facebook</a>
+                  <a href="https://www.facebook.com/Allthingspcbin-114604550410837/" target="_blank" rel="noreferrer">Facebook</a>
                 </li>
                 <li>
-                  <a href="https://instagram.com/allthingspcb.in?igshid=xiv0a5ubue8p" target="_blank">Instagram</a>
+                  <a href="https://instagram.com/allthingspcb.in?igshid=xiv0a5ubue8p" target="_blank" rel="noreferrer">Instagram</a>
                 </li>
                 {/* <li>
                   <a href="#">Twitter</a>

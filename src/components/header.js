@@ -19,14 +19,14 @@ class Header extends Component {
       <>
         <header className="navbarItems">
           <div style={{ display: "flex" }}>
-            <img src={logo} className="logo" />
+            <img src={logo} className="logo" alt="" />
           </div>
 
           <div onClick={this.handleClick} className="box">
             {this.state.clicked ? (
-              <img src={cancel} className="click" />
+              <img src={cancel} className="click" alt="" />
             ) : (
-                <img src={menu} className="click" />
+                <img src={menu} className="click" alt="" />
               )}
           </div>
           {/* <div className="menu-items"></div> */}

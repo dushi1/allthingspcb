@@ -8,7 +8,7 @@ export const ItemBox = (props) => {
                 color: "black", padding: "20px",
                 alignSelf: "center", fontSize: "1.5rem"
             }}>{props.name}</div>
-            <img src={props.img} className="images" />
+            <img src={props.img} className="images" alt="" />
         </div>
     )
 }

@@ -1,6 +1,6 @@
 import React from 'react'
 import "../All.css"
-import c1 from "../../images/c1.png"
+
 
 export const Production = () => {
     return (
