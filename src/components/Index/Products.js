@@ -12,7 +12,7 @@ export const Product = () => {
             <div id="aboutus" class="about-section aboutusl">
                 <div class="container">
                     <div class="site-title text-center">
-                        <h3>Product</h3>
+                        <h3>Products</h3>
                     </div>
                     <div className="row">
                         <div className="col-lg-6 col-md-6">
