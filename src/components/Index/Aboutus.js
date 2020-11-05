@@ -2,21 +2,9 @@ import React from 'react'
 import "../All.css"
 import c1 from "../../images/c8.png"
 import { graphql, useStaticQuery } from 'gatsby'
-import Img from "gatsby-image"
+
 
 export const Aboutus = () => {
-
-    const data = useStaticQuery(graphql`
-    query {
-  c1:file(relativePath: {eq:"c1.png"}){
-    childImageSharp{
-      fixed{
-        src
-      }
-    }
-  }
-}
-    `)
 
     return (
         <section id="about">
