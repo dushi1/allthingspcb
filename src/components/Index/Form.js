@@ -67,17 +67,17 @@ const Form = () => {
                                     </div>
 
                                     <div className="checkbox">
-                                        <label class="container1" for="proto" onClick={() => {
+                                        <label class="container1" onClick={() => {
                                             setType('Prototype')
                                         }
                                         }>Prototype
-                                        <input type="radio" name="proto" />
+                                        <input type="radio" name="radio" />
                                             <span class="checkmark"></span>
                                         </label>
-                                        <label class="container1" for="pro" onClick={() => {
+                                        <label class="container1" onClick={() => {
                                             setType('Production')
                                         }}>Production
-                                        <input type="radio" name="pro" />
+                                        <input type="radio" name="radio" />
                                             <span class="checkmark"></span>
                                         </label>
                                     </div>
