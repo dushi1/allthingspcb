@@ -8,6 +8,7 @@ const Form = () => {
     const [mobile, setMobile] = useState("")
     const [textArea, setTextArea] = useState("")
     const [type, setType] = useState('none')
+    const [location, setLocation] = useState('')
 
     return (
         toggle ?
@@ -21,7 +22,8 @@ const Form = () => {
                                     "name": name,
                                     "mobile": mobile,
                                     "text": textArea,
-                                    "type": type
+                                    "type": type,
+                                    "location": location
                                 }, {
                                     headers: {
                                         'Content-Type': 'application/json',
@@ -54,15 +56,21 @@ const Form = () => {
                                     <div class="form-group">
                                         <label class="col-md-12 control-label" for="mobile">Mobile number</label>
                                         <div class="col-md-12">
-                                            <input id="email" name="mobile" type="text" placeholder="Mobile number" class="form-control" required value={mobile} onChange={(event) => setMobile(event.target.value)} minLength={10} maxLength={10} />
+                                            <input id="email" name="mobile" type="text" placeholder="Mobile number" class="form-control" required value={mobile} onChange={(event) => setMobile(event.target.value)} maxLength={25} />
                                         </div>
                                     </div>
 
+                                    <div class="form-group">
+                                        <label class="col-md-12 control-label" for="location">Location (optional)</label>
+                                        <div class="col-md-12">
+                                            <input id="location" name="location" type="text" placeholder="Location" class="form-control" value={location} onChange={(event) => setLocation(event.target.value)} maxLength={25} />
+                                        </div>
+                                    </div>
 
                                     <div class="form-group">
-                                        <label class="col-md-12 control-label" for="message">Your message</label>
+                                        <label class="col-md-12 control-label" for="message">Your message (optional)</label>
                                         <div class="col-md-12">
-                                            <textarea class="form-control" id="message" name="message" placeholder="Please enter your message here..." rows="2" required value={textArea} onChange={(event) => setTextArea(event.target.value)}></textarea>
+                                            <textarea class="form-control" id="message" name="message" placeholder="Please enter your message here..." rows="2" value={textArea} onChange={(event) => setTextArea(event.target.value)}></textarea>
                                         </div>
                                     </div>
 
@@ -85,7 +93,7 @@ const Form = () => {
 
                                     <div class="form-group">
                                         <div class="col-md-12">
-                                            <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+                                            <button type="submit" class="btn btn-primary btn-md">Submit</button>
                                         </div>
                                     </div>
                                 </div>

@@ -1,7 +1,7 @@
 import React from 'react'
 import "../All.css"
 import c1 from "../../images/c8.png"
-import { graphql, useStaticQuery } from 'gatsby'
+//import { graphql, useStaticQuery } from 'gatsby'
 
 
 export const Aboutus = () => {

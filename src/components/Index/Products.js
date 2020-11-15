@@ -4,7 +4,7 @@ import { ItemBox } from '../ItemBox'
 import c1 from "../../images/c1.png"
 import c7 from "../../images/c7.png"
 import c4 from "../../images/c4.png"
-import c5 from "../../images/c5.png"
+import c5 from "../../images/c9.jpeg"
 
 export const Product = () => {
     return (

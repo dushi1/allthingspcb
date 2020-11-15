@@ -26,7 +26,7 @@ export const Yus = () => {
                                                 <span class="glyphicon glyphicon-cog icon"></span>
                                             </div>
                                             <div class="y-us-content">
-                                                <h4>SAFTEY FIRST</h4>
+                                                <h4 className="h4tag">SAFTEY FIRST</h4>
                                                 <p>We ensure the safety of our employees as well as other stakeholders</p>
                                             </div>
                                         </div>
@@ -37,7 +37,7 @@ export const Yus = () => {
                                                 <span class="glyphicon glyphicon-cog icon"></span>
                                             </div>
                                             <div class="y-us-content">
-                                                <h4>ETHICAL PRACTICES</h4>
+                                                <h4 className="h4tag">ETHICAL PRACTICES</h4>
                                                 <p>We take care of all social, political, environmental and economic aspects of the business bye using ethical practices</p>
                                             </div>
                                         </div>
@@ -48,7 +48,7 @@ export const Yus = () => {
                                                 <span class="glyphicon glyphicon-cog icon"></span>
                                             </div>
                                             <div class="y-us-content">
-                                                <h4>PROFESSIONAL</h4>
+                                                <h4 className="h4tag">PROFESSIONAL</h4>
                                                 <p>With an increasing demand for quality PCB designs in the competitive technology market today, we give you an ideal choice of design services by experts who will assist you in all your technological requirements besides fulfilling your demanding schedules.</p>
                                             </div>
                                         </div>
@@ -65,7 +65,7 @@ export const Yus = () => {
                                                 <span class="glyphicon glyphicon-cog icon"></span>
                                             </div>
                                             <div class="y-us-content">
-                                                <h4>SUSTAINABILITY</h4>
+                                                <h4 className="h4tag">SUSTAINABILITY</h4>
                                                 <p>With our best in class technology, we aim towards sustainable ways of manufacturing, looking forward to a brighter tomorrow.</p>
                                             </div>
                                         </div>
@@ -76,7 +76,7 @@ export const Yus = () => {
                                                 <span class="glyphicon glyphicon-cog icon"></span>
                                             </div>
                                             <div class="y-us-content">
-                                                <h4>MODERN TECHNOLOGY</h4>
+                                                <h4 className="h4tag">MODERN TECHNOLOGY</h4>
                                                 <p>We use best machines and latest technology to meet high product standards</p>
                                             </div>
                                         </div>

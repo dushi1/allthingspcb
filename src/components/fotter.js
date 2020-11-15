@@ -32,7 +32,7 @@ const Footer = () => {
               <h5>Contacts</h5>
               <dl class="contact-list">
                 <dt>Address:</dt>
-                <dd>A4/19 first floor paschim vihar new delhi 110063</dd>
+                <dd> 4501,Dai Wara, Chawri Bazar, Delhi-110006</dd>
               </dl>
               <dl class="contact-list">
                 <dt>email:</dt>
@@ -43,7 +43,7 @@ const Footer = () => {
               <dl class="contact-list">
                 <dt>phones:</dt>
                 <dd>
-                  <a href="tel:#8802020259">8802020259</a>
+                  <a href="tel:+918802020256">+918802020256</a>
                 </dd>
               </dl>
             </div>

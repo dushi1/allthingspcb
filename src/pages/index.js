@@ -10,12 +10,13 @@ import { Product } from "../components/Index/Products"
 import Form from "../components/Index/Form"
 import "../components/All.css"
 import { Yus } from "../components/Index/Yus"
-
+import { EmailNumber } from "../components/Index/EmailNumber"
 
 const IndexPage = () => (
   <div style={{ overflowX: "hidden" }}>
     <Layout>
-      <SEO title="Home" description="PCB on order" lang="en" meta="pcb" />
+      <SEO title="Home" description="allthingspcb.in" lang="en" meta="pcb" />
+      <EmailNumber />
       <div className="adjust">
         <Carousel />
         <Form />
