@@ -11,24 +11,24 @@ const Carousel = () => {
       <R.Carousel.Item>
         <img className="d-block w-100" src={c1} alt="First slide" style={{ height: "30rem" }} />
         <R.Carousel.Caption>
-          <h3 style={{ color: "black", }}>All Things PCB</h3>
-          <p style={{ color: "black", }}>PCB manufacturer in new Delhi</p>
+          <h3 style={{ color: "black", backgroundColor: "white" }}>All Things PCB</h3>
+          <p style={{ color: "black", backgroundColor: "white" }}>PCB manufacturer in new Delhi</p>
         </R.Carousel.Caption>
       </R.Carousel.Item>
       <R.Carousel.Item>
         <img className="d-block w-100" src={c2} alt="Third slide" style={{ height: "30rem" }} />
 
         <R.Carousel.Caption>
-          <h3 style={{ color: "black", }}>High Quality PCB</h3>
-          <p style={{ color: "black", }}>We deal in Single side, Double side and Multilayer PCBs</p>
+          <h3 style={{ color: "black", backgroundColor: "white" }}>High Quality PCB</h3>
+          <p style={{ color: "black", backgroundColor: "white" }}>We deal in Single side, Double side and Multilayer PCBs</p>
         </R.Carousel.Caption>
       </R.Carousel.Item>
       <R.Carousel.Item>
         <img className="d-block w-100" src={c3} alt="Third slide" style={{ height: "30rem" }} />
 
         <R.Carousel.Caption>
-          <h3 style={{ color: "black" }}>We Always Deliver On Time</h3>
-          <p style={{ color: "black" }}>
+          <h3 style={{ color: "black", backgroundColor: "white" }}>We Always Deliver On Time</h3>
+          <p style={{ color: "black", backgroundColor: "white" }}>
             We take prototype as well as bulk production orders.
           </p>
         </R.Carousel.Caption>
